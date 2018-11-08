@@ -16,66 +16,55 @@
 
     <link rel="stylesheet" type="text/css" href="pages.css">
     <style>
-      img{
-      width: 300px;
-      height: 300px;
-      }
-      canvas{
-      margin: 0 auto;
-      width: 300px;
-      height: 300px;
-      // border:1px solid #000000;
-      animation: bounce 1s steps(3) infinite;
-      }
-      @keyframes bounce {
-      from { background-position: 0px; }
-      to { background-position: -900px; }
-      }
-      
-      #canvas1{
-      background-image: url(picture/talksprite.jpg);
-      }
+
+#canvas1{
+background-image: url(picture/schooltalk.png);
+	width: 295px;
+	height: 300px;
+
+ animation: frog-bounce 1s steps(2) infinite;
+}
+@keyframes frog-bounce {
+	from { background-position: 0px; }
+	to { background-position: -600px; }
+}
 
       #canvas2{
-      background-image: url(picture/classsprite.jpg);
-      }
+background-image: url(picture/classroom.png);
+	width: 295px;
+	height: 290px;
 
-      
-      #canvas3{
-      margin: 0 auto;
-      background-image: url(picture/studysprite.jpg);
-      width: 327px;
-      height: 300px;
+ animation: frog-bounce 1s steps(2) infinite;
+}
 
-      animation: frog-bounce 1s steps(3) infinite;
-      }
-      
+ #canvas3{
+background-image: url(picture/study.png);
+	width: 290px;
+	height: 290px;
 
-      #canvas4{
-      
-      background-image: url(picture/thiefsprite.jpg);
-      width: 328px;
-      height: 300px;
+ animation: frog-bounce 1s steps(2) infinite;
+}
 
-      animation: frog-bounce 1s steps(3) infinite;
-      }
+#canvas4{
+margin: 0;
+	background-image: url(picture/thiefsprite.jpg);
+	width: 300px;
+	height: 290px;
 
+ animation: bounce 1s steps(3) infinite;
+}
+@keyframes bounce {
+	from { background-position: 0px; }
+	to { background-position: -990px; }
+}
 
-      
-      
-      #canvas5{
-      
-      background-image: url(picture/awardsprite.jpg);
-      width: 327px;
-      height: 300px;
+ #canvas5{
+background-image: url(picture/award.png);
+	width: 290px;
+	height: 290px;
 
-      animation: frog-bounce 1s steps(3) infinite;
-      }
-      @keyframes frog-bounce {
-      from { background-position: 0px; }
-      to { background-position: -990px; }
-      }
-
+ animation: frog-bounce 1s steps(2) infinite;
+}
 
 
 
