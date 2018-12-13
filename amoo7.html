@@ -12,6 +12,42 @@
     
         
 	    <link rel="stylesheet" type="text/css" href="pages.css">
+<style>
+      #canvas1{
+      margin: 0 auto;
+      background-image: url(picture/returneggs.png);
+      width: 280px;
+      height: 290px;
+
+      animation: bounce 1s steps(2) infinite;
+      }
+      @keyframes bounce{
+      from { background-position: 0px; }
+      to { background-position: -600px; }
+      }
+#canvas2{
+      margin: 0 auto;
+      background-image: url(picture/ant.png);
+      width: 298px; height: 290px;
+
+      animation: bounce 1s steps(2) infinite;
+      }
+#canvas3{
+      margin: 0 auto;
+      background-image: url(picture/eggs.png);
+      width: 290px; height: 290px;
+
+      animation: bounce 1s steps(2) infinite;
+      }
+#canvas4{
+      margin: 0 auto;
+      background-image: url(picture/flyingpigeons.png);
+      width: 290px; height: 290px;
+
+      animation: bounce 1s steps(2) infinite;
+      }
+
+    </style>
 
 	</head>
 
@@ -31,6 +67,8 @@
 <div class="chapter"> 
 <h3> Chapter 7  </h3>
 <h2>The pigeons dilemma</h2>
+
+<canvas id="canvas3"></canvas>
 <p>        A pair of pigeons had build a nest near Apoopan's well. One day, by
 accident, Apoopan kicked the nest and  three eggs from the nest
 dropped in to the well. The pigeons told Apoopan </p>
@@ -71,7 +109,7 @@ wild pig, who did not mess the farm of Apoopan, who did not fetch the
 three eggs he dropped in the water, for us?" </p>
 
 <p> "No" said the water stream. </p>
-
+<canvas id="canvas4"></canvas>
 <p> The pigeons flew further till They saw an elephant and they asked </p>
 
 <p> "Elephant, elephant. Will you stamp the water stream and turn it
@@ -81,7 +119,7 @@ mess the farm of Apoopan, who did not fetch the three eggs he dropped
 in the water, for us?" </p>
 
 <p> "No" said the elephant. </p>
-
+<canvas id="canvas2"></canvas>
 <p> So the pigeons flew further till they saw an ant and they asked </p>
 
 <p> "Ant, ant. Will you bite the trunk of the elephant, who did not stamp
@@ -98,7 +136,7 @@ off the fire. The fire ran and set ablaze the mustache of the hunter.
 The hunter ran and tried to shoot the wild pig. The wild pig ran and
 messed up Apoopan's farm. Apoopan ran and fetched the three eggs from
 the well. </p>
-
+<canvas id="canvas1"></canvas>
 <p> The pigeons thanked the little ant profusely. </p>
 
 <div id="buttonsDiv">

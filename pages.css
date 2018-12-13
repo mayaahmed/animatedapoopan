@@ -16,12 +16,12 @@ width: 90%;
 
 }
 
+
 .chapter{position:absolute;
 background: beige;
-font-size: 17px;
-padding: 10px;
-max-width: 1000px;
-margin-top: 20px;
+font-size: 22px;
+padding: 30px;
+width: 90%;
 }
 
 
@@ -74,6 +74,11 @@ font-size: 12px;
  overflow: scroll;
 }
 
+#tableOfContentsDiv a{
+padding: 5px;
+padding-bottom: 20px;
+}
+
 .tocLinks{
 position: relative;
 text-decoration: none;
@@ -94,26 +99,51 @@ text-decoration: none;
 left: 35px;
 }
 
-
+/*
 input[type=button] {
-background-color: #D2B48C;   
+background: beige;
+background-color: #D2B48C;  
+// background-color: rgba(0,0,0,0.1);
 width: 40px;
 height: 40px;
 font-size: 24px;
-color: beige;
-border-radius: 5px;
-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-opacity: 0.7;
+ color: beige;
+ border-radius: 5px;
+ box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+opacity: 0.8;
 margin-left: 10px;
 }
 
 input[type=button]:hover{
 opacity:1;
 }
+*/
+
+
+
 
 #buttonsDiv{
-//position: fixed;
+    //position: fixed;
 text-align: right;
+// text-align: center;
+// margin: 20px;
 padding: 20px;
 }
 
+input[type=button] {
+    font-size: 25px; 
+    // color: blue;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+input[type=button]:hover{
+    font-size:30px;
+
+}

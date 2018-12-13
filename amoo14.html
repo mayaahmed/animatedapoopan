@@ -10,8 +10,36 @@
 		<title>Punjiri: Web and Mobile Technologies.</title>
 		
     
-        
-	    <link rel="stylesheet" type="text/css" href="pages.css">
+        	    <link rel="stylesheet" type="text/css" href="pages.css">
+<style> 
+
+#canvas1{
+      margin: 0 auto;
+       background-image: url(picture/drinktea.png);
+      width: 280px;
+      height: 280px;
+
+      animation: bounce 1s steps(2) infinite;
+      }
+      @keyframes bounce {
+      from { background-position: 0px; }
+      to { background-position: -600px; }
+
+      }
+
+
+#canvas2{
+      margin: 0 auto;
+       background-image: url(picture/hiccup.png);
+      width: 280px;
+      height: 280px;
+
+      animation: bounce 1s steps(2) infinite;
+      }
+
+
+
+</style>
 
 	</head>
 
@@ -31,6 +59,8 @@
 <div class="chapter"> 
 <h3> Chapter 14  </h3>
 <h2>Think of me more</h2>
+
+	<canvas id="canvas1"></canvas>
 
 <p> One day Apoopan met an old friend after a long time.  The two of them
 went to a tea shop and were talking about this and that when Apoopan's
@@ -65,7 +95,7 @@ Apoopan got a hiccup. He was very happy and said to himself </p>
 
 <p> "Ha! Amooma must be thinking of me." </p>
 
-
+	<canvas id="canvas2"></canvas>
 <p> But then there was another hiccup, and then another, and then another,
 till Apoopan was tired of hiccups. </p>
 
@@ -82,7 +112,7 @@ off limits about thinking of me?" </p>
 
 <div id="buttonsDiv">
 <input type="button" id="submitButton" value="&#8592;"  onClick="location.href='amoo13.html'"> 
-<input type="button" id="submitButton" value="&#8594;"  onClick="location.href='bluefox.html '"> 
+<input type="button" id="submitButton" value="&#8594;"  onClick="location.href='magicpot.html '"> 
     </div>
 </div>
 <script src="pages.js"></script> 

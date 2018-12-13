@@ -16,9 +16,7 @@ chapter11 = " <br/> <br/> <a href='amoo11.html' class='tocLinks'>11. Feasting ti
 chapter12 = " <br/> <br/> <a href='amoo12.html' class='tocLinks'> 12.  Yes Boss!   </a>";
 chapter13 = " <br/> <br/> <a href='amoo13.html' class='tocLinks'>13. May their souls rest in peace.  </a>";
 chapter14 = " <br/> <br/> <a href='amoo14.html' class='tocLinks'> 14.  Think of me more.  </a>";
-chapter15 = " <br/> <br/> <a href='bluefox.html' class='tocLinks'> 15. The Blue Fox. </a>";
-chapter16 = " <br/> <br/> <a href='twocrows.html' class='tocLinks'> 16. Forcing fortune to smile. </a>";
-chapter17 = " <br/> <br/> <a href='magicpot.html' class='tocLinks'> 17. We could do with magic. </a>";
+chapter15 = " <br/> <br/> <a href='magicpot.html' class='tocLinks'> 15. We could do with magic. </a>";
 
 
 
@@ -27,6 +25,6 @@ chapter17 = " <br/> <br/> <a href='magicpot.html' class='tocLinks'> 17. We could
 
 
 function toc(){
-  tableDiv.innerHTML=Home+chapter1+chapter2+ chapter3+chapter4 + chapter5+chapter6 +chapter7+chapter8 +chapter9+chapter10 +chapter11 +chapter12 +chapter13+chapter14 +chapter15+chapter16 +chapter17 ;}
+  tableDiv.innerHTML=Home+chapter1+chapter2+ chapter3+chapter4 + chapter5+chapter6 +chapter7+chapter8 +chapter9+chapter10 +chapter11 +chapter12 +chapter13+chapter14 +chapter15;}
 
 toc();

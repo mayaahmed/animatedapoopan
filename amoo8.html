@@ -12,7 +12,20 @@
     
         
 	    <link rel="stylesheet" type="text/css" href="pages.css">
+<style>
+#canvas1{
+margin: 0 auto;
+	background-image: url(picture/cookingbeans.png);
+	width: 280px;
+	height: 280px;
 
+ animation: bounce 1s steps(2) infinite;
+}
+@keyframes bounce {
+	from { background-position: 0px; }
+	to { background-position: -600px; }
+}
+</style>
 	</head>
 
 	<body>
@@ -46,6 +59,8 @@ fuss. </p>
 
 <p> "I will show you how to cook beans without wasting any" said
 Apoopan. "You women do not know how to cook." </p>
+
+<canvas id="canvas1"></canvas>
 
 <p> The next day Apoopan cooked a glass of beans and it turned in to half
 a glass too. </p>
